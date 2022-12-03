@@ -22,11 +22,15 @@ body {
     width: 100%;
 }
 
-.сontainer {
+.container {
     width: 1200px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.section {
+    padding: 94px 15px;
 }
 
 .header-content {
@@ -143,8 +147,6 @@ body {
 }
 
 .main-effect .container {
-    width: 1200px;
-    margin: 0 auto;
     min-height: 600px;
     display: flex;
     flex-wrap: wrap;
@@ -186,12 +188,6 @@ body {
 
 
 /* третя секція */
-.qualities .container {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 95px 15px;
-
-}
 .qualities-list {
     list-style: none;
     display: flex;
@@ -234,12 +230,11 @@ body {
 
 
 /* четверта секція */
+
 .employment .container {
-    width: 1200px;
-    margin: 0 auto;
     text-align: center;
-    padding: 95px 15px;
 }
+
 .employment-headline {
     color: var(--headline-color);
     font-family: Roboto;
@@ -269,12 +264,6 @@ body {
 .team {
     width: 100%;
     background-color: #f5f4fa;
-}
-
-.team .container {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 95px 15px;
 }
 
 .team-headline {
@@ -341,8 +330,6 @@ body {
 }
 
 .page-footer .container {
-    width: 1200px;
-    margin: 0 auto;
     padding: 60px 15px;
     display: flex;
     flex-direction: column;
@@ -385,12 +372,6 @@ body {
 
 .portfolio-main {
     width: 100%;
-}
-
-.portfolio-main .container {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 95px 15px;
 }
 
 .portfolio-list {
