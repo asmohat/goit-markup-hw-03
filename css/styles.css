@@ -67,6 +67,10 @@ body {
 }
 
 .site-nav-list-item-link {
+    padding: 15px 0;
+}
+
+.site-nav-list-item-link {
     text-decoration: none;
     color: var(--headline-color);
     font-family: Roboto;
@@ -427,21 +431,25 @@ body {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    /* width: calc((100%-60)/3); */
     flex-basis: calc((100%-60px)/3);
     gap: 30px;
     padding: 0;
+}
+
+.portfolio-projects-item-container{
+    border: 1px solid #eeeeee;
+    padding-top: 20px;
 }
 
 .portfolio-projects-item {
     display: flex;
     box-sizing: border-box;
     flex-direction: column;
-    border: 1px solid #eeeeee;
+    
 }
 
 .portfolio-projects-item-image {
-    margin-bottom: 20px;
+    margin-bottom: 0;
 }
 
 .portfolio-projects-item-headline {
