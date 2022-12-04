@@ -10,7 +10,7 @@ h1,h2,h3,h4,h5,h6,p,ul{
 }
 
 body {
-    font-family: Roboto;
+    font-family: 'Roboto';
     --headline-color: #212121;
     --article-color: #757575;
     --brand-color: #2196F3;
@@ -43,13 +43,10 @@ body {
 }
 
 .logo {
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-weight: 700;
-    font-style: bold;
     font-size: 26px;
     line-height: 1.2;
-    text-align: left;
-    vertical-align: top;
     letter-spacing: 0.03em;
     text-decoration: none;
     color : #000000;
@@ -79,13 +76,10 @@ body {
 .site-nav-list-item-link {
     text-decoration: none;
     color: var(--headline-color);
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-weight: 500;
-    font-style: medium;
     font-size: 14px;
     line-height: 1.15;
-    text-align: left;
-    vertical-align: top;
     letter-spacing: 0.02em;
 }
 
@@ -99,13 +93,10 @@ body {
 }
 
 .tel {
-    font-family: Roboto;
+    font-family: ''''Roboto'''';
     font-weight: 500;
-    font-style: medium;
     font-size: 14px;
     line-height: 1.15;
-    text-align: left;
-    vertical-align: top;
     letter-spacing: 0.02em;
     color: var(--article-color);
     text-decoration: none;
@@ -113,13 +104,10 @@ body {
 }
 
 .mail {
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-weight: 500;
-    font-style: medium;
     font-size: 14px;
     line-height: 1.15;
-    text-align: left;
-    vertical-align: top;
     letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--article-color);
@@ -156,23 +144,21 @@ body {
 }
 
 .main-effect-title {
-    font-family: Roboto;
+    font-family: ''''Roboto'''';
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.34;
-    vertical-align: top;
+    line-height: 1.36;
     letter-spacing: 0.06em;
     color: #ffffff;
     margin-bottom: 40px;
+    text-transform: uppercase;
 }
 
 .main-effect-button {
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-weight: 700;
-    font-style: bold;
     font-size: 16px;
     line-height: 1.87;
-    vertical-align: center;
     letter-spacing: 0.06em;
     min-width: 170px;
     height: 50px;
@@ -201,13 +187,10 @@ body {
 
 .qualities-list-item-article {
     color: var(--headline-color);
-    font-family: Roboto;
-    font-style: bold;
+    font-family: '''Roboto''';
     font-weight: 700;
     font-size: 14px;
     line-height: 1.2;
-    text-align:left;
-    vertical-align: top;
     letter-spacing: 0.03em;
     display: inline-block;
     margin-bottom: 10px;
@@ -216,12 +199,9 @@ body {
 
 .qualities-list-item-article-text {
     color: var(--article-color);
-    font-family: Roboto;
-    font-style: bold;
+    font-family: 'Roboto';
     font-size: 14px;
     line-height: 1.71;
-    text-align:left;
-    vertical-align: top;
     letter-spacing: 0.03em;
 }
 
@@ -235,12 +215,10 @@ body {
 
 .employment-headline {
     color: var(--headline-color);
-    font-family: Roboto;
-    font-style: bold;
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
-    vertical-align: Top;
     letter-spacing: 0.03em;
     display: inline-block;
     margin-bottom: 50px;
@@ -269,16 +247,14 @@ body {
 
 .team-headline {
     color: var(--headline-color);
-    font-family: Roboto;
-    font-style: bold;
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
-    text-align: center;
-    vertical-align: top;
     letter-spacing: 0.03em;
     margin-bottom: 55px;
 }
+
 .team-list {
     list-style: none;
     display: flex;
@@ -293,29 +269,27 @@ body {
 
 .team-list-item-headline {
     color: var(--headline-color);
-    font-family: Roboto;
-    font-style: bold;
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-    text-align: center;
-    vertical-align: top;
     letter-spacing: 0.03em;
     margin-bottom: 10px;
 }
 
 .team-list-item-block {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     padding: 30px 0;
 }
 
 .team-list-item-article {
     color: var(--article-color);
-    font-family: Roboto;    
+    font-family: 'Roboto';    
     font-size: 16px;
     line-height: 1.19;
-    text-align: center;
-    vertical-align: top;
     letter-spacing: 0.03em;
 }
 
@@ -336,13 +310,10 @@ body {
 
 .footer-logo {
     color: #ffffff;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-weight: 700;
-    font-style: bold;
     font-size: 26px;
     line-height: 1.2;
-    text-align: left;
-    vertical-align: top;
     letter-spacing: 0.03em;
     text-decoration: none;
     display: inline-block;
@@ -353,19 +324,22 @@ body {
     color: #ffffff;
     display: inline-block;
     margin-bottom: 10px;
-    font-family: Roboto;
-    font-style: regular;
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    text-align: left;
-    vertical-align: top;
     letter-spacing: 0.03em;
 }
 
 .footer-tel {
     display: inline-block;
     margin-bottom: 10px;
+}
+
+.footer-tel, .footer-mail {
+    color: rgba(255, 255, 255, 0.6);
+    margin-right: 0;
 }
 
 
@@ -392,13 +366,10 @@ body {
     background-color: #f5f4fa;
     border-radius: 4px;
     border: none;
-    font-family: Roboto;
-    font-style: medium;
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    text-align: center;
-    vertical-align: top;
     letter-spacing: 0.03em;
     padding: 5px 20px;
     margin: 5px;
@@ -439,24 +410,19 @@ body {
 
 .portfolio-projects-item-headline {
     color: var(--headline-color);
-    font-family: Roboto;
-    font-style: bold;
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
-    text-align: left;
-    vertical-align: top;
     letter-spacing: 0.03em;
     margin-left: 25px;
     margin-bottom: 10px;
 }
 
 .portfolio-projects-item-text {
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 16px;
     line-height: 1.87;
-    text-align: left;
-    vertical-align: top;
     letter-spacing: 0.03em;
     color: var(--article-color);
     display: inline-block;
