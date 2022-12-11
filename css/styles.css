@@ -247,10 +247,6 @@ body {
     background-color: #f5f4fa;
 }
 
-.team .section {
-    padding-top: 94px;
-}
-
 .team-headline {
     color: var(--headline-color);
     font-family: 'Roboto';
