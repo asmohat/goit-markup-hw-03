@@ -28,12 +28,11 @@ body {
 .container {
     width: 1200px;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+
 }
 
 .section {
-    padding: 94px 0;
+    padding: 94px 15px;
 }
 
 .header-content {
@@ -93,7 +92,7 @@ body {
 }
 
 .tel {
-    font-family: ''''Roboto'''';
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 1.15;
@@ -143,8 +142,12 @@ body {
 
 }
 
+.main-effect .section {
+    padding: 200px 0;
+}
+
 .main-effect-title {
-    font-family: ''''Roboto'''';
+    font-family: 'Roboto';
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -187,7 +190,7 @@ body {
 
 .qualities-list-item-article {
     color: var(--headline-color);
-    font-family: '''Roboto''';
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 14px;
     line-height: 1.2;
@@ -208,7 +211,7 @@ body {
 
 /* четверта секція */
 
-.employment .container {
+.employment {
     text-align: center;
     padding-top: 0;
 }
@@ -226,10 +229,13 @@ body {
 
 .employment-list {
     list-style: none;
-     display: flex;
-     flex-wrap: wrap;
-     flex-basis: calc((100%-30px)/3);
-     gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: calc(100%-60px);
+}
+
+.employment-list-item:not(:last-child) {
+    margin-right: 30px;
 }
 
 
@@ -395,7 +401,7 @@ body {
 
 .portfolio-projects-item-container{
     border: 1px solid #eeeeee;
-    padding-top: 20px;
+    padding: 20px 24px;
 }
 
 .portfolio-projects-item {
@@ -416,8 +422,7 @@ body {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.03em;
-    margin-left: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .portfolio-projects-item-text {
@@ -427,7 +432,5 @@ body {
     letter-spacing: 0.03em;
     color: var(--article-color);
     display: inline-block;
-    margin-left: 25px;
-    margin-bottom: 20px;
 }
 
